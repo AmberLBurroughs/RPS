@@ -1,0 +1,69 @@
+body {
+  position: relative;
+  overflow: hidden;
+}
+.banner {
+  position: absolute;
+  z-index: 999;
+  left: 25%;
+  background-color: transparent;
+  text-align: center;
+
+}
+.banner img {
+  margin-top: 1%;
+  z-index: 9999;
+  max-height: 400px;
+}
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  max-height: 600px;
+}
+.reset{
+  min-height:40px;
+  padding-top: 10px;
+}
+#playAgain {
+  float: right;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  color: #3fc5a4;
+  cursor: pointer;
+  display: none;
+}
+.display {
+  margin: 0 0 10% 0;
+  padding: 0 10px;
+  width: 45.5%;
+  min-height: 310px;
+  float: left;
+  text-align: center;
+}
+.display img {
+  padding-top: 50px;
+  height: 250px;
+  width: 250px;
+}
+.bttnGrp {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  width: 98.2%;
+  clear: both;
+}
+.bttnGrp button {
+  background-color: transparent;
+  border: none;
+  margin: 0 50px;
+}
+.bttnGrp button img {
+  width: 150px;
+  height: 150px;
+}
+button:focus {
+  outline:0;
+}
